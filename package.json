@@ -1,0 +1,45 @@
+{
+  "name": "d3-webpack",
+  "version": "1.0.0",
+  "description": "Starter pack for data visualization in D3.js",
+  "main": "src/index.js",
+  "repository": "https://github.com/m-hess/d3-webpack.git",
+  "author": "m-hess, adapted from maecapozzi/d3-webpack-babel-tutorial",
+  "license": "ISC",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "NODE_ENV=development webpack-serve ./webpack.config.js"
+  },
+  "private": false,
+  "devDependencies": {
+    "autoprefixer": "^8.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-serve": "^1.0.2"
+  },
+  "dependencies": {
+    "d3": "^5.4.0"
+  }
+}
